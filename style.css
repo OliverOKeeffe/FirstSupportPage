@@ -117,5 +117,22 @@
     font-style: normal;
 }
 
+.header {
+    margin-bottom: 20px;
+}
+
 /* Carousel */
+.video-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 50px;
+    margin-left: 50px; 
+    margin-right: 50px;
+    scroll-snap-type: x mandatory;
+}
+
+.video-card {
+    flex: 0 0 30%;
+    scroll-snap-align: center;
+}
 
