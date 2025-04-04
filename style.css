@@ -134,6 +134,10 @@
     font-size: 1rem;
 }
 
+.font-weight-bold {
+    font-weight: 700;
+}
+
 .poppins-footer-regular-letter {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -158,6 +162,7 @@
 
 .footer a {
     text-decoration: none;
+    color: white;
 }
 
 /* Carousel */
