@@ -118,6 +118,29 @@
     font-size: 2rem;
 }
 
+.poppins-footer-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.poppins-footer-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.poppins-footer-regular-letter {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+}
+
 .card-title {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -131,6 +154,10 @@
 
 .footer {
     background-color: #003A56;
+}
+
+.footer a {
+    text-decoration: none;
 }
 
 /* Carousel */
