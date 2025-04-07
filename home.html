@@ -15,10 +15,12 @@
 </head>
 
 <body>
-    <header class="header text-white py-3 d-flex align-items-center position-relative"
+    <header
+        class="header text-white py-3 d-flex align-items-center justify-content-between position-relative container-fluid"
         style="background-color: #0a4067;">
-        <img src="Images/city-colleges-tagline.svg" alt="Logo" style="height: 150px;" class="me-3 img-fluid">
-        <p class="poppins-bold mb-0 position-absolute start-50 translate-middle-x">Student Support Page</p>
+        <img src="Images/city-colleges-tagline.svg" alt="Logo" class="me-3 img-fluid"
+            style="max-height: 100px; height: auto;">
+        <h1 class="poppins-bold mb-0 text-center flex-grow-1">Student Support Page</h1>
     </header>
     <!-- Main Body -->
     <!-- First Row -->
@@ -227,59 +229,22 @@
         </div>
     </div>
     <!-- Form -->
-    <h2>Problem Form</h2>
-    <p>Let us know if you have a specific problem</p>
-
-    <div class="form-container">
-        <form action="/action_page.php">
-            <div class="row">
-                <div class="col-25">
-                    <label for="fname">First Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="lname">Last Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="country">Course</label>
-                </div>
-                <div class="col-75">
-                    <select id="country" name="country">
-                        <option value="australia">Criminology</option>
-                        <option value="canada">Business</option>
-                        <option value="usa">Cybersecurity</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="subject">Subject</label>
-                </div>
-                <div class="col-75">
-                    <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:200px"></textarea>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <input type="submit" value="Submit">
-            </div>
-        </form>
-    </div>
+    <iframe 
+    src="https://forms.office.com/Pages/ResponsePage.aspx?id=icR0xrx3YE6zZbbNcuRwVjspX9T64RBGjSW23n05dJdUOU82RVZSNksxSlZSU1VWOVBWRDVQU1FOTC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen
+    width="100%" 
+    height="600" 
+    frameborder="0" 
+    style="border: none; max-width: 100%; height: 80vh;"
+    allowfullscreen 
+    webkitallowfullscreen 
+    > 
+</iframe>
 
     <!-- Footer -->
     <footer class="footer text-white py-4 d-flex align-items-center position-relative">
         <div class="container text-white">
             <div class="row row-footer">
+                <!-- Terms of Business -->
                 <div class="col-md-3 text-center text-md-start">
                     <h5 class="poppins-footer-bold">Terms of Business</h5>
                     <p class="poppins-footer-regular"><a href="https://citycolleges.ie/booking-terms-conditions/"
@@ -295,6 +260,7 @@
                     <p class="poppins-footer-regular"><a href="https://citygroup.ie/quality-assurance/"
                             class="text-white">Quality Assurance</a></p>
                 </div>
+                <!-- Address -->
                 <div class="col-md-3 text-center text-md-start">
                     <h5 class="poppins-footer-bold">Address</h5>
                     <p class="poppins-footer-regular">City Colleges</p>
@@ -303,34 +269,60 @@
                     <p class="poppins-footer-regular">Dublin 2</p>
                     <p class="poppins-footer-regular">D02 TX84</p>
                 </div>
-                <div class="col-md-3 text-center text-md-start">
+                <!-- Contact Us -->
+                <div class="contactus-logos col-md-3 text-center text-md-start">
                     <h5 class="poppins-footer-bold">Contact Us</h5>
                     <p class="poppins-footer-regular"><span class="font-weight-bold">t :</span> +353 1 416 0034</p>
                     <p class="poppins-footer-regular"><span class="font-weight-bold">e :</span> <a
-                            href="mailto:info@citycolleges.ie"">info@citycolleges.ie</a></p>
+                    href="mailto:info@citycolleges.ie"">info@citycolleges.ie</a></p>
+
+                    <div class="row mt-3">
+                        <div class="col-6 col-md-3 mb-3">
+                            <img src="Images/facebook.svg" alt="Logo 1" class="img-fluid" 
+                                style="max-height: 30px;">
+                            <a href="https://www.facebook.com/CityColleges/"></a>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <img src="Images/instagram.svg" alt="Logo 2" class="img-fluid" 
+                                style="max-height: 80px;">
+                            <a href="https://www.instagram.com/citycollegesdublin/"></a>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <img src="Images/twitter.svg" alt="Logo 3" class="img-fluid" 
+                                style="max-height: 80px;">
+                            <a href="https://twitter.com/citycolleges"></a>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <img src="Images/linkedin.svg" alt="Logo 4" class="img-fluid" 
+                                style="max-height: 80px;">
+                            <a href="https://ie.linkedin.com/school/city-colleges/"></a>
+   
+                        </div>
+                    </div>
                 </div>
+                <!-- City Education Group -->
                 <div class=" col-md-3 text-center text-md-start">
-                            <h5 class="poppins-footer-bold">City Education Group</h5>
-                            <p class="poppins-footer-regular">
-                                <img src="Images/city-90x90-1.webp" alt="City College Logo" class="footer-logo me-2"
-                                    style="height: 30px;">
-                                <a href="https://citycolleges.ie" class="text-white">City Colleges</a>
-                            </p>
-                            <p class="poppins-footer-regular">
-                                <img src="Images/ashfield-90x90-white-bg.webp" alt="Ashfield College Logo"
-                                    class="footer-logo me-2" style="height: 30px;">
-                                <a href="https://ashfieldcollege.ie" class="text-white">Ashfield College</a>
-                            </p>
-                            <p class="poppins-footer-regular">
-                                <img src="Images/progressive-90x90-white-bg.webp" alt="Progressive College Logo"
-                                    class="footer-logo me-2" style="height: 30px;">
-                                <a href="https://progressivecollege.ie" class="text-white">Progressive College</a>
-                            </p>
-                            <p class="poppins-footer-regular">
-                                <img src="Images/cls-90x90-1.webp" alt="City Language School Logo"
-                                    class="footer-logo me-2" style="height: 30px;">
-                                <a href="https://citylanguageschool.com" class="text-white">City Language School</a>
-                            </p>
+                    <h5 class="poppins-footer-bold">City Education Group</h5>
+                    <p class="poppins-footer-regular">
+                        <img src="Images/city-90x90-1.webp" alt="City College Logo" class="footer-logo me-2"
+                            style="height: 30px;">
+                        <a href="https://citycolleges.ie" class="text-white">City Colleges</a>
+                    </p>
+                    <p class="poppins-footer-regular">
+                        <img src="Images/ashfield-90x90-white-bg.webp" alt="Ashfield College Logo"
+                            class="footer-logo me-2" style="height: 30px;">
+                        <a href="https://ashfieldcollege.ie" class="text-white">Ashfield College</a>
+                    </p>
+                    <p class="poppins-footer-regular">
+                        <img src="Images/progressive-90x90-white-bg.webp" alt="Progressive College Logo"
+                            class="footer-logo me-2" style="height: 30px;">
+                        <a href="https://progressivecollege.ie" class="text-white">Progressive College</a>
+                    </p>
+                    <p class="poppins-footer-regular">
+                        <img src="Images/cls-90x90-1.webp" alt="City Language School Logo" class="footer-logo me-2"
+                            style="height: 30px;">
+                        <a href="https://citylanguageschool.com" class="text-white">City Language School</a>
+                    </p>
                 </div>
             </div>
         </div>
