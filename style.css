@@ -262,6 +262,10 @@ html, body {
     width: 75%;
     margin-top: 6px;
   }
+
+  .social-media-logos {
+    margin-top: 40px;
+  }
   
   /* Clear floats after the columns */
   .row::after {
