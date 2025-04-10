@@ -169,6 +169,11 @@ html, body {
     background-color: #003a56;
 }
 
+.body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .poppins-bold-header {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
