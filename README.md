@@ -1,4 +1,3 @@
-
 # City Colleges Support Page
 
 This page can be used for people to see premade videos for common question and issues regarding techonology, they can also use the form to submit issues
