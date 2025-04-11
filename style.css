@@ -90,6 +90,16 @@ html, body {
     font-style: italic;
 }
 
+.poppins-regular-header {
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 40px;
+    color: white;
+    /* color: #1a3b66; */
+}
+
 .poppins-medium-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
